@@ -1,11 +1,13 @@
 -- Ejericicio 3 haskell
--- lista subconjunto de otra
+-- ver si una ista en subconjunto de otra
 
-subConj :: Eq a => [a] -> [a] -> Bool
-subConj [] [] = True
-subConj _ [] = False
-subConj [] _ = True
 
-subConj (x:xs) (y:ys)
-    | x == y = subConj xs ys
-    | otherwise = subConj (x:xs) ys
+subconj :: Eq a => [a] -> [a] -> Bool
+subconj [] [] = True
+subconj [] _ = True
+subconj _ [] = False
+
+subconj (x:xs) (y:ys) 
+    | x == y = subconj xs ys   
+    | otherwise = subconj (x:xs) ys
+

@@ -1,6 +1,6 @@
 --Ejercicio 1
 --haskell
--- Fibonnaci base 3 Estructural
+-- Fibonnaci base 3 forma estructurada
 suma3 :: Integer -> Integer -> Integer -> Integer
 suma3 a b c = a + b + c 
 
@@ -13,7 +13,7 @@ fiboEst n a b c = do
        fiboEst (n-1) b c f
     else putStr ""
 
--- Fibonnaci base 3 recursivo
+-- Fibonnaci base 3 forma recursiva
 fiboRec :: Integer -> Integer
 fiboRec 0 = 0
 fiboRec 1 = 1
@@ -32,7 +32,7 @@ main :: IO()
 main = do
     putStrLn ("Ingrese numero de terminos: ")
     n <- getLine
-    putStrLn ("Fibonnaci base 3 forma estructural")
+    putStrLn ("Fibonnaci base 3 forma estructurada")
     fiboEst (read n) (-1) 1 0
     putStrLn ("\nFibonnaci base 3 forma recursivo")
     generarFiboRec (read n)

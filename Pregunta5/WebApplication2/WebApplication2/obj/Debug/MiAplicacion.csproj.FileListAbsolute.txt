@@ -1,0 +1,2 @@
+c:\users\hp\documents\visual studio 2012\Projects\WebApplication2\WebApplication2\obj\Debug\MiAplicacion.csprojResolveAssemblyReference.cache
+c:\users\hp\documents\visual studio 2012\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiAplicacion", "WebApplication2\MiAplicacion.csproj", "{AC0BEEC1-18ED-46AD-A3B8-65516B5254D6}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fibos", "Library1\fibos.fsproj", "{71036F20-5D04-46E6-B634-409C5F6CD0FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC0BEEC1-18ED-46AD-A3B8-65516B5254D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0BEEC1-18ED-46AD-A3B8-65516B5254D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0BEEC1-18ED-46AD-A3B8-65516B5254D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0BEEC1-18ED-46AD-A3B8-65516B5254D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71036F20-5D04-46E6-B634-409C5F6CD0FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71036F20-5D04-46E6-B634-409C5F6CD0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71036F20-5D04-46E6-B634-409C5F6CD0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71036F20-5D04-46E6-B634-409C5F6CD0FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
